@@ -2,44 +2,28 @@
 <html lang="vi">
 <head>
   <meta charset="UTF-8">
-  <title>Bài 2: Tính Lũy Thừa</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #fefbea;
-      padding: 20px;
-    }
-    .box {
-      background: #fff;
-      padding: 20px;
-      border-left: 5px solid #ff9800;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-      max-width: 400px;
-    }
-    .result {
-      font-weight: bold;
-      color: #d35400;
-    }
-    h2 {
-      color: #e67e22;
-    }
-  </style>
+  <title>Trang Web Cá Nhân</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header>
+    <h1>Chào mừng đến với Trang Cá Nhân</h1>
+  </header>
 
-  <h2>Bài 2: Tính Lũy Thừa</h2>
-  <div class="box" id="output"></div>
+  <main>
+    <section class="baiviet">
+      <h2>Bài viết 1</h2>
+      <p>Đây là nội dung của bài viết đầu tiên. Mình học HTML và CSS rất thú vị!</p>
+    </section>
 
-  <script>
-    let a = 2;
-    let b = 3;
-    let ketQua = a ** b;
+    <section class="baiviet">
+      <h2>Bài viết 2</h2>
+      <p>Bài viết thứ hai sẽ giúp luyện tập thêm về cấu trúc trang web.</p>
+    </section>
+  </main>
 
-    document.getElementById("output").innerHTML = `
-      Cho a = ${a}, b = ${b}<br><br>
-      👉 Lũy thừa: ${a}<sup>${b}</sup> = <span class="result">${ketQua}</span>
-    `;
-  </script>
-
+  <footer>
+    <p>&copy; 2025 - Bản quyền thuộc về Minh</p>
+  </footer>
 </body>
 </html>
