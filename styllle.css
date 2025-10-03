@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    background-color: #ffffff;
+    border: 2px solid #ccc;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.post {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+}
+.color-boxes {
+    display: flex;
+    gap: 10px; /* Khoảng cách giữa các ô */
+    margin: 20px;
+}
+
+.color-box {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
